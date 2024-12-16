@@ -7,12 +7,16 @@ public class Circle {
 
     try {
 
+      double radius, areaCircle;
+
       System.out.print("Radius (r² Cm): ");
-      double radius = scanner.nextDouble();
+      radius = scanner.nextDouble();
 
-      double areaCircle = 3.14 * radius;
+      final double PHI = 3.14159;
 
-      System.out.println("Area circle: " + areaCircle);
+      areaCircle = PHI * radius * radius;
+
+      System.out.println("Area circle: " + areaCircle + " Cm²");
 
     } catch (Exception e) {
       System.out.println("Invalid input!.");

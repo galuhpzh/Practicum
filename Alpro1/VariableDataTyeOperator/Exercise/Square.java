@@ -12,7 +12,7 @@ public class Square {
 
       double areaSquare = side * side;
       
-      System.out.println("Area square: " + areaSquare + " Cm");
+      System.out.println("Area square: " + areaSquare + " Cm²");
       
     } catch (Exception e) {
       System.out.println("Invalid input!.");

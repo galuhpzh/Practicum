@@ -15,7 +15,7 @@ public class Rectangle {
 
       double areaRectangle = length * width;
 
-      System.out.println("Area rectangle: " + areaRectangle + " Cm");
+      System.out.println("Area rectangle: " + areaRectangle + " Cm²");
 
     } catch (Exception e) {
       System.out.println("Ivalid input!.");
