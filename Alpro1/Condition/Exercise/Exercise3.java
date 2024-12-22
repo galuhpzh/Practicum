@@ -25,9 +25,9 @@ public class Exercise3 {
         averageScore = (academicTest + skillTest +  psychologicalTest) / 3;
 
         if (averageScore < 75) {
-          System.out.println("You Failed!.\n");
+          System.out.println("\nYou Failed!.");
         } else {
-          System.out.println("You Passed!.\n");
+          System.out.println("\nYou Passed!.");
             if (academicTest > skillTest && academicTest > psychologicalTest) {
               System.out.println("You Placed in Administrasion!.");
             } else if (skillTest > academicTest && skillTest >  psychologicalTest) {
@@ -45,7 +45,7 @@ public class Exercise3 {
         }
 
       } catch (Exception e) {
-        System.out.println("Harap masukkan pilihan yang valid!.");
+        System.out.println("Input not valid!");
       }
     scanner.close();
   }
