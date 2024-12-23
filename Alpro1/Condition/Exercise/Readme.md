@@ -1,5 +1,7 @@
 # Kondisi dan Latihan dalam Java
 
+![Condition Exercise](https://github.com/galuhpzh/Practicum/blob/717e7a52492ad781fbb4238ce38d5c3b31292362/Alpro1/assets/Condition%20Exercise.jpg)
+
 Repository ini berisi beberapa program Java sederhana yang dirancang untuk melatih penggunaan logika kondisional dalam pemrograman. Setiap program menyelesaikan masalah tertentu berdasarkan input dari pengguna.
 
 ## Daftar Latihan
