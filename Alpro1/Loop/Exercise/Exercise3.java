@@ -4,37 +4,37 @@ import java.util.Scanner;
 public class Exercise3 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    int bilangan = 0, hitung = 0, total = 0;
-    String jawab;
+    int number = 0, count = 0, total = 0;
+    String answer;
 
-    while(true) {
+    while (true) {
       try {
-        System.out.print("Masukkan bilangan ke-"+ (hitung + 1) + ": ");
-        bilangan = scanner.nextInt();
+        System.out.print("Enter number " + (count + 1) + ": ");
+        number = scanner.nextInt();
 
         scanner.nextLine();
 
-        total += bilangan;
-        hitung++;
+        total += number;
+        count++;
 
-        System.out.print("Mau lanjut (y/n): ");
-        jawab = scanner.nextLine().toLowerCase();
+        System.out.print("Do you want to continue (y/n): ");
+        answer = scanner.nextLine().toLowerCase();
 
-        if (jawab.equalsIgnoreCase("t")) {
-          System.out.println("Program berhenti!.");
+        if (answer.equalsIgnoreCase("n")) {
+          System.out.println("Program stopped.");
           scanner.close();
           break;
-        } else if (jawab.equalsIgnoreCase("y")) {
-          System.out.println("Program berlanjut!.");
+        } else if (answer.equalsIgnoreCase("y")) {
+          System.out.println("Program continues.");
           continue;
         } else {
-          System.out.println("Harap masukkan pilihan yang valid!.");
+          System.out.println("Please enter a valid option.");
         }
       } catch (Exception e) {
-        System.out.println("Harap masukkan pilihan yang valid!.");
+        System.out.println("Please enter a valid input.");
         scanner.next();
-      }  
+      }
     }
-    System.out.println("Total bilangan: " + total);
+    System.out.println("Total sum: " + total);
   }
 }
