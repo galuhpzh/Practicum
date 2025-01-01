@@ -100,4 +100,4 @@ Total premium rate: Rp500000
 - Java Development Kit (JDK) 8 atau lebih baru
 
 ## Lisensi
-Proyek ini bersifat open-source dan tersedia di bawah [Lisensi MIT](LICENSE).
+Proyek ini bersifat open-source dan tersedia di bawah [Lisensi MIT](../../LICENSE).
