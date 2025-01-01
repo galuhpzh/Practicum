@@ -65,7 +65,3 @@ Area rectangle: 50 Cm²
 - Java Development Kit (JDK) 8 atau lebih baru.
 
 ---
-
-## Lisensi
-
-Proyek ini bersifat open-source dan tersedia di bawah [MIT License](LICENSE).
