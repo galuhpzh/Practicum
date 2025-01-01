@@ -53,7 +53,3 @@ Age: 69 y.o
 - Java Development Kit (JDK) 8 atau yang lebih baru
 
 ---
-
-## Lisensi
-
-Proyek ini bersifat open-source dan tersedia di bawah [Lisensi MIT](LICENSE).
