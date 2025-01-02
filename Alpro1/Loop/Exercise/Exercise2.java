@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Exercise2 {
   public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
     try {
       
-      Scanner scanner = new Scanner(System.in);
-
       System.out.print("Enter the initial cost of Hajj (Rp): ");
       double initialCost = scanner.nextDouble();
 
@@ -33,7 +33,7 @@ public class Exercise2 {
       scanner.close();
 
     } catch (Exception e) {
-      System.out.println("Harap masukkan input yang valid!.");
+      System.out.println("Invalid input!.");
     }
   }
 }
