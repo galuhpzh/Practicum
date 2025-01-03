@@ -1,4 +1,4 @@
-# Alpro 1 (Algoritma dan Pemrograman 1)
+# Alpro 1 (Algorithm and Programming 1)
 
 Repositori ini berisi materi pembelajaran dan latihan untuk mata kuliah **Algoritma dan Pemrograman 1 (Alpro 1)**. Setiap folder mewakili topik utama dalam pemrograman dasar, lengkap dengan latihan (exercise) untuk meningkatkan pemahaman.
 
